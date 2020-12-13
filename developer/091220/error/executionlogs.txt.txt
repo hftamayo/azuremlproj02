@@ -1,0 +1,2 @@
+[2020-12-09 20:04:04Z] Submitting 1 runs, first five are: 0faa6d93:14425548-43c3-4136-8797-15cdd876d81d
+[2020-12-09 20:04:33Z] Execution of experiment failed, update experiment status and cancel running nodes.

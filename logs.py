@@ -6,7 +6,7 @@ ws = Workspace.from_config()
 
 # Set with the deployment name
 # chosen deployment name in a previous stage, ie: depproj02-ht
-name = ""
+name = "dep-p2-htamayo"
 
 # load existing web service
 service = Webservice(name=name, workspace=ws)
