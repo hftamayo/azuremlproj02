@@ -72,7 +72,7 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 
     1. It is important to check if az, Python SDK are enabled
     2. Download from Azure ML Studio the JSON file that contains the information of the subscription
-    3. Write code that enables the application insights. See logs.py
+    3. Write code that enables the application insights. See [logs.py](logs.py)
     4. In order to execute logs.py you need to confirm your user’s credentials
     5. Run logs.py and whether it successfully run check if the Application insights are enabled
     6. Click on the URL of the Application insights to see the results
