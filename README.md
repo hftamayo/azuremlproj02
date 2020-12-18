@@ -18,6 +18,7 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 *Main goal*: to implement a model that will be cloud based deploy and consume as an endpoint. 
 
 *Checkpoints to be considered*: 
+
     1. Create a new Automated Machine Learning run
     2. Select (in case it is available) or upload the bankmarketing dataset (https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv)
     3. Create a new Machine Learning experiment
@@ -30,12 +31,9 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
         - Concurrency to 5
 
 *Screenshots of the execution of some stages*:
+
     1. Available datasets:
-
-
     2. Experiment completed:
-
-
     3. Best model identified once the experiment is completed:
         
 
