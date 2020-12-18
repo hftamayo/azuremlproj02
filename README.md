@@ -10,6 +10,12 @@
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
+
+# Project 1: Implement a cloud based Machine Learning Model
+
+## Project's main goal:
+TODO
+
 ## Part 1: Authentication
 *Main goal*: Enable authentication in Azure ML workspace in order to execute a group of special operations. 
 
@@ -115,5 +121,24 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
     4. Content of data.json file
     5. Running benchmark.sh
         
+        
+# Project 2: Create, publish and consume a pipeline
+
+## Project's main goal:
+execute the different stages from a jupyter notebook file to implement a pipeline.
+
+*Checkpoints to be considered*: 
+
+    1. Use the previous created experiment
+    2. Upload the jupyter notebook file
+    3. Downgrade from SDK ver 1.19 to 1.18
+        - pip list | grep 1.19.0 | xargs pip uninstall -y
+        - pip install azureml-sdk[automl,contrib,widgets]==1.18.0
+        - pip install azureml-widgets==1.18.0
+    4. Make sure config.json file is still in the same working directory
+    5. Exexute each cell of the juputer notebook
+    6. Verify the pipeline has been created
+    7. Verify the pipeline is running
+
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
