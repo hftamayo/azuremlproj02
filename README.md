@@ -29,7 +29,7 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
         - Exit criterion to 1
         - Concurrency to 5
 
-*Checkpoints to be considered*:         
+*Screenshots of the execution of some stages*:
     1. Available datasets:
 
 
