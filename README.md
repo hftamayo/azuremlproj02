@@ -42,9 +42,14 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 *Screenshots of the execution of some stages*:
 
     1. Available datasets:
+![step02_ss01.png](./img/s02/step02_ss01.png?raw=true "Available Datasets")
+
     2. Experiment completed:
+![step02_ss02.png](./img/s02/step02_ss02.png?raw=true "Experiment completed")    
+    
     3. Best model identified once the experiment is completed:
-        
+![step02_ss03.png](./img/s02/step02_ss03.png?raw=true "Best Model")    
+    
         
 ## Part 3: Deploy the best model
 *Main goal*: to publish via HTTP the best model identified and chose after the AutoML experiment is completed. 
@@ -72,10 +77,8 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 
     1. It is important to check if az, Python SDK are enabled
     2. Download from Azure ML Studio the JSON file that contains the information of the subscription
-    3. Write code that enables the application insights. See 
-[logs.py](./logs.py)
- 
-   4. In order to execute logs.py you need to confirm your user’s credentials
+    3. Write code that enables the application insights(see logs.py)
+    4. In order to execute logs.py you need to confirm your user’s credentials
     5. Run logs.py and whether it successfully run check if the Application insights are enabled
     6. Click on the URL of the Application insights to see the results
 
