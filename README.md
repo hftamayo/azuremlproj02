@@ -127,11 +127,23 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 *B. Screenshots of the execution of some stages*:
 
     1. Running swagger.sh
+![step05_ss01.png](./img/s05/step05_ss01.png?raw=true "Running swagger.sh")    
+
     2. Accesing to swagger through localhost:9000
+![step05_ss02.png](./img/s05/step05_ss02.png?raw=true "Accesing swagger")    
+
     3. Running serve.py
+![step05_ss03.png](./img/s05/step05_ss03.png?raw=true "Running server.py")    
+
     4. Interacting with the swagger instance through the deployed model
-    5. Available API methods (5 y 6) 
-        
+![step05_ss04.png](./img/s05/step05_ss04.png?raw=true "Intaracting with swagger")    
+
+    5. Available API methods 
+![step05_ss05.png](./img/s05/step05_ss05.png?raw=true "Available API methods")    
+
+
+![step05_ss06.png](./img/s05/step05_ss06.png?raw=true "Available API methods")    
+
 ## Part 6: Consume model endpoints
 *Main goal*: To interact with the deployed model using a source code specifically designed for the purpose.
 
