@@ -26,7 +26,7 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 ## Part 2: Automation of the Machine Learning Experiment
 *Main goal*: to implement a model that will be cloud based deploy and consume as an endpoint. 
 
-*Checkpoints to be considered*: 
+*A. Checkpoints to be considered*: 
 
     1. Create a new Automated Machine Learning run
     2. Select (in case it is available) or upload the bankmarketing dataset (https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv)
@@ -39,7 +39,7 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
         - Exit criterion to 1
         - Concurrency to 5
 
-*Screenshots of the execution of some stages*:
+*B. Screenshots of the execution of some stages*:
 
     1. Available datasets:
 ![step02_ss01.png](./img/s02/step02_ss01.png?raw=true "Available Datasets")
@@ -54,7 +54,7 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 ## Part 3: Deploy the best model
 *Main goal*: to publish via HTTP the best model identified and chose after the AutoML experiment is completed. 
 
-*Checkpoints to be considered*: 
+*A. Checkpoints to be considered*: 
 
     1. Select the best model and click on “deploy”
     2. Enable authentication
@@ -62,18 +62,30 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
     4. Whether the process is successful you may check in the “endpoints” option the recently deployment
     5. Click on it and you should get details about the REST Endpoint as well as its authentication keys.
 
-*Screenshots of the execution of some stages*:
+*B. Screenshots of the execution of some stages*:
 
     1. Selection of the best model and click on Deploy:
+![step03_ss01.png](./img/s03/step03_ss01.png?raw=true "Best Model and click on deploy")    
+
     2. Deploy on Azure Container Instance and enable authentication:
+![step03_ss02.png](./img/s03/step03_ss02.png?raw=true "Deploy on Azure Container Instance")    
+
     3. Confirmation of “success” of the process of deploy:
+![step03_ss03.png](./img/s03/step03_ss03.png?raw=true "Deploy process finised")    
+
     4. Checking the “Endpoint” option on ML Studio (by default the application insights are disabled):
-    5. Details how to “consume” the Endpoint: (fotos 5 y 6)
+![step03_ss04.png](./img/s03/step03_ss04.png?raw=true "Endpoin details")    
+
+    5. Details how to “consume” the Endpoint:
+![step03_ss05.png](./img/s03/step03_ss05.png?raw=true "How to consume and endpoint")    
+
+![step03_ss06.png](./img/s03/step03_ss06.png?raw=true "How to consume and endpoint")    
+
         
 ## Part 4: Enable application insights
 *Main goal*: Enable application insights and logging via source code (Although this process may be accomplished using the GUI).
 
-*Checkpoints to be considered*: 
+*A. Checkpoints to be considered*: 
 
     1. It is important to check if az, Python SDK are enabled
     2. Download from Azure ML Studio the JSON file that contains the information of the subscription
@@ -82,7 +94,7 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
     5. Run logs.py and whether it successfully run check if the Application insights are enabled
     6. Click on the URL of the Application insights to see the results
 
-*Screenshots of the execution of some stages*:
+*B. Screenshots of the execution of some stages*:
 
     1. Download config.json
     2. Execution of logs.py (2 y 3)
@@ -92,7 +104,7 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 ## Part 5: Swagger documentation
 *Main goal*: To test the recently deployed model using Swagger.
 
-*Checkpoints to be considered*: 
+*A. Checkpoints to be considered*: 
 
     1. Download the swagger.json file from the recently deployed model
     2. Copy swagger.json file in the same folder of swagger.sh and serve.py
@@ -100,7 +112,7 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
     4. Interact with the swagger instance based in the documentation obtained from the model.
     5. Display the content of the API model
 
-*Screenshots of the execution of some stages*:
+*B. Screenshots of the execution of some stages*:
 
     1. Running swagger.sh
     2. Accesing to swagger through localhost:9000
@@ -111,14 +123,14 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 ## Part 6: Consume model endpoints
 *Main goal*: To interact with the deployed model using a source code specifically designed for the purpose.
 
-*Checkpoints to be considered*: 
+*A. Checkpoints to be considered*: 
 
     1. In the endpoint.py file update the values of scoring_uri and key obtained from the consume tab of the deployed model
     2. Execute the endpoint.py file
     3. A file called data.json should be created as a result of the interaction
     4. To test the performance of the endpoint run benchmark.sh file, do not forget to update the values of scoring_uri and key as well.
 
-*Screenshots of the execution of some stages*:
+*B. Screenshots of the execution of some stages*:
 
     1. Scoring_uri and key values obtained from the consume tab of the deployed model
     2. Updating endpoint.py
@@ -132,7 +144,7 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 ## Project's main goal:
 execute the different stages from a jupyter notebook file to implement a pipeline.
 
-*Checkpoints to be considered*: 
+*A. Checkpoints to be considered*: 
 
     1. Use the previous created experiment
     2. Upload the jupyter notebook file
