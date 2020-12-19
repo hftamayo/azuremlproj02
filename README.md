@@ -2,7 +2,12 @@
 ## Machine Learning Engineer with Microsoft Azure Program
 ### Scholarship recipient: Herbert Fernández Tamayo
 
-*TODO:* Write an overview to your project.
+## Overview of the project
+The project has two components, the first one is the automation of a Machine Learning Model and its implementation on the cloud using Azure Containers, the model is available via API functions and it has a dashboard avaiable using Application Insights Options. The model was tested using Apache Benchmark.
+
+The second component is the implementation of a pipeline, the source code is available using a jupyter notebook file, it includes the provision of an Infrastructure as a service, configure an AutoML workspace, a model training stage and access to the expected results.
+
+Both components use the same dataset.
 
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
@@ -14,7 +19,7 @@
 # Project 1: Implement a cloud based Machine Learning Model
 
 ## Project's main goal:
-TODO
+To implement an automated ML model in production which is accesible via HTTP and its capable of establish interaction using API methods
 
 ## Part 1: Authentication
 *Main goal*: Enable authentication in Azure ML workspace in order to execute a group of special operations. 
@@ -157,16 +162,25 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 *B. Screenshots of the execution of some stages*:
 
     1. Scoring_uri and key values obtained from the consume tab of the deployed model
+![step06_ss01.png](./img/s06/step06_ss01.png?raw=true "Scoring URI and key values")    
+
     2. Updating endpoint.py
+![step06_ss02.png](./img/s06/step06_ss02.png?raw=true "Updating endpoint.py")    
+
     3. Running endpoint.py
+![step06_ss03.png](./img/s06/step06_ss03.png?raw=true "Running endpoint.py")    
+
     4. Content of data.json file
+![step06_ss04.png](./img/s06/step06_ss04.png?raw=true "Content of data.json")    
+
     5. Running benchmark.sh
+![step06_ss05.png](./img/s06/step06_ss05.png?raw=true "Running benchmark.sh")    
         
         
 # Project 2: Create, publish and consume a pipeline
 
 ## Project's main goal:
-execute the different stages from a jupyter notebook file to implement a pipeline.
+To execute the different stages from a jupyter notebook file to implement a pipeline.
 
 *A. Checkpoints to be considered*: 
 
@@ -182,4 +196,5 @@ execute the different stages from a jupyter notebook file to implement a pipelin
     7. Verify the pipeline is running
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+1. Implement the automation model using Kubernetes.
+2. Develop different source code examples to interact in detail with the model using an Frontend framework such as React.js 
