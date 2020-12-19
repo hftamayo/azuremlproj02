@@ -96,11 +96,23 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 
 *B. Screenshots of the execution of some stages*:
 
-    1. Download config.json
-    2. Execution of logs.py (2 y 3)
-    3. Check the application insights URL enabled 
-    4. App insights results (5 y 6)
+    1. Downloading config.json
+![step04_ss01.png](./img/s04/step04_ss01.png?raw=true "Downloading config.json")    
 
+    2. Execution of logs.py (2 y 3)
+![step04_ss02.png](./img/s04/step04_ss02.png?raw=true "Executing logs.py")    
+
+![step04_ss03.png](./img/s04/step04_ss03.png?raw=true "Executing logs.py")    
+
+    3. Check the application insights URL enabled 
+![step04_ss04.png](./img/s04/step04_ss04.png?raw=true "App insights enabled")    
+
+    4. App insights results (5 y 6)
+![step04_ss05.png](./img/s04/step04_ss05.png?raw=true "App insights results")    
+
+![step04_ss06.png](./img/s04/step04_ss06.png?raw=true "App insights results")    
+
+    
 ## Part 5: Swagger documentation
 *Main goal*: To test the recently deployed model using Swagger.
 
