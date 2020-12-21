@@ -10,7 +10,8 @@ The second component is the implementation of a pipeline, the source code is ava
 Both components use the same dataset.
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+ The below diagram has been created using draw.io:
+![project02_diagram.png](./project02_diagram.png?raw=true "Project diagram")
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
@@ -191,7 +192,7 @@ To execute the different stages from a jupyter notebook file to implement a pipe
         - pip install azureml-sdk[automl,contrib,widgets]==1.18.0
         - pip install azureml-widgets==1.18.0
     4. Make sure config.json file is still in the same working directory
-    5. Exexute each cell of the juputer notebook
+    5. Execute each cell of the juputer notebook
     6. Verify the pipeline has been created
     7. Verify the pipeline is running
 
