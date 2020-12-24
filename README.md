@@ -14,7 +14,9 @@ Both components use the same dataset.
 ![project02_diagram.png](./project02_diagram.png?raw=true "Project diagram")
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+In the next video the user may have access to the project's summary and the expected results. In the next sections, there are specific videos to help the user to understand specific tasks :
+
+![Project's Summary](https://youtu.be/e9Z9gdNLemc)
 
 
 # Project 1: Implement a cloud based Machine Learning Model
@@ -56,7 +58,14 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
     3. Best model identified once the experiment is completed:
 ![step02_ss03.png](./img/s02/step02_ss03.png?raw=true "Best Model")    
     
-        
+    
+*C. Video tutorial*:
+
+![Automation of the Machine Learning Experiment Part 1](https://youtu.be/izuIk1Qx7Ag)
+
+![Automation of the Machine Learning Experiment Part 2](https://youtu.be/HP1focRImfY)
+
+
 ## Part 3: Deploy the best model
 *Main goal*: to publish via HTTP the best model identified and chose after the AutoML experiment is completed. 
 
@@ -87,7 +96,11 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 
 ![step03_ss06.png](./img/s03/step03_ss06.png?raw=true "How to consume and endpoint")    
 
-        
+*C. Video tutorial*:
+
+![Deploy the best model](https://youtu.be/veDdDgKgFf4)
+
+      
 ## Part 4: Enable application insights
 *Main goal*: Enable application insights and logging via source code (Although this process may be accomplished using the GUI).
 
@@ -118,7 +131,15 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 
 ![step04_ss06.png](./img/s04/step04_ss06.png?raw=true "App insights results")    
 
-    
+*C. Video tutorial*:
+
+![Enable application insights - Part 1](https://youtu.be/0SflRVTtTyw)
+
+![Enable application insights - Part 2](https://youtu.be/69IZq83Pju0)
+
+![Enable application insights - Part 3](https://youtu.be/6qiv6UYPdWc)
+
+
 ## Part 5: Swagger documentation
 *Main goal*: To test the recently deployed model using Swagger.
 
@@ -150,6 +171,15 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 
 ![step05_ss06.png](./img/s05/step05_ss06.png?raw=true "Available API methods")    
 
+*C. Video tutorial*:
+
+![Swagger documentation - Part 1](https://youtu.be/yncXp4vOSrc)
+
+![Swagger documentation - Part 2](https://youtu.be/WIUgUVIsVO0)
+
+![Swagger documentation - Part 3](https://youtu.be/imS2sHPqyM8)
+
+
 ## Part 6: Consume model endpoints
 *Main goal*: To interact with the deployed model using a source code specifically designed for the purpose.
 
@@ -176,7 +206,12 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 
     5. Running benchmark.sh
 ![step06_ss05.png](./img/s06/step06_ss05.png?raw=true "Running benchmark.sh")    
-        
+
+
+*C. Video tutorial*:
+
+![Consume model endpoints](https://youtu.be/bqObQt0onb4)
+
         
 # Project 2: Create, publish and consume a pipeline
 
@@ -199,3 +234,38 @@ To execute the different stages from a jupyter notebook file to implement a pipe
 ## Standout Suggestions
 1. Implement the automation model using Kubernetes.
 2. Develop different source code examples to interact in detail with the model using an Frontend framework such as React.js 
+
+*B. Screenshots of the execution of some stages*:
+
+    1. Error in the  execution of he jupyter notebook using SDK ver 1.19.0: output error
+![errorjupyter.png](./img/s07/errorjupyter.png?raw=true "Error in the  execution of he jupyter notebook using SDK ver 1.19.0: output error")    
+
+    2. Error in the  execution of he jupyter notebook using SDK ver 1.19.0: checking logs
+![error experiment ml run.png](./img/s07/error experiment ml run.png?raw=true "Error in the  execution of he jupyter notebook using SDK ver 1.19.0: checking logs")    
+
+    3. Downgrading from SDK ver 1.19 to 1.18
+![step07_ss01.png](./img/s07/step07_ss01.png?raw=true "Downgrading from SDK ver 1.19 to 1.18")        
+    
+    4. After downgrade, the execution of the jupyter notebook was sucessful: pipelines completed
+![step07_ss02.png](./img/s07/step07_ss02.png?raw=true "After downgrade, the execution of the jupyter notebook was sucessful: pipelines completed")        
+
+    5. Pipeline deployed
+![step07_ss03.png](./img/s07/step07_ss03.png?raw=true "Endpoint deployed")        
+    
+    6. Dataset avaiables in the ML studio's workspace
+![step07_ss04.png](./img/s07/step07_ss04.png?raw=true "Dataset avaiables in the ML studio's workspace")        
+
+    7. Training process completed
+![step07_ss05.png](./img/s07/step07_ss05.png?raw=true "Training process completed")
+
+    8. Automl model completed
+![step07_ss06.png](./img/s07/step07_ss06.png?raw=true "Automl model completed")
+    
+    9. Automl model completed (view from the jupyter notebook)
+![step07_ss07.png](./img/s07/step07_ss07.png?raw=true "Automl model completed_view from the jupyter notebook")
+
+*C. Video tutorial*:
+
+![Create, publish and consume a pipeline Part 1](https://youtu.be/WPAmaW4bsMg)
+
+![Create, publish and consume a pipeline Part 2](https://youtu.be/IdzSo1Qx_Uk)
