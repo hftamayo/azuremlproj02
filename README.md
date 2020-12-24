@@ -266,6 +266,6 @@ To execute the different stages from a jupyter notebook file to implement a pipe
 
 *C. Video tutorial*:
 
-![Create, publish and consume a pipeline Part 1](https://youtu.be/WPAmaW4bsMg)
+[Create, publish and consume a pipeline Part 1](https://youtu.be/WPAmaW4bsMg)
 
-![Create, publish and consume a pipeline Part 2](https://youtu.be/IdzSo1Qx_Uk)
+[Create, publish and consume a pipeline Part 2](https://youtu.be/IdzSo1Qx_Uk)
