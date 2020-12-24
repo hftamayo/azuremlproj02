@@ -269,3 +269,11 @@ To execute the different stages from a jupyter notebook file to implement a pipe
 [Create, publish and consume a pipeline Part 1](https://youtu.be/WPAmaW4bsMg)
 
 [Create, publish and consume a pipeline Part 2](https://youtu.be/IdzSo1Qx_Uk)
+
+# Cleaning the workspace
+
+    1. Deleting Computer Clusters instances
+![cleaning01.png](./img/cleaning01.png?raw=true "Deleting computer clusters")        
+
+    1. Deleting Computer instances
+![cleaning02.png](./img/cleaning02.png?raw=true "Deleting computer instances")        
