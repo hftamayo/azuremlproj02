@@ -16,7 +16,7 @@ Both components use the same dataset.
 ## Screen Recording
 In the next video the user may have access to the project's summary and the expected results. In the next sections, there are specific videos to help the user to understand specific tasks :
 
-![Project's Summary](https://youtu.be/e9Z9gdNLemc)
+[Project's Summary](https://youtu.be/e9Z9gdNLemc)
 
 
 # Project 1: Implement a cloud based Machine Learning Model
@@ -61,9 +61,9 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
     
 *C. Video tutorial*:
 
-![Automation of the Machine Learning Experiment Part 1](https://youtu.be/izuIk1Qx7Ag)
+[Automation of the Machine Learning Experiment Part 1](https://youtu.be/izuIk1Qx7Ag)
 
-![Automation of the Machine Learning Experiment Part 2](https://youtu.be/HP1focRImfY)
+[Automation of the Machine Learning Experiment Part 2](https://youtu.be/HP1focRImfY)
 
 
 ## Part 3: Deploy the best model
@@ -98,7 +98,7 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 
 *C. Video tutorial*:
 
-![Deploy the best model](https://youtu.be/veDdDgKgFf4)
+[Deploy the best model](https://youtu.be/veDdDgKgFf4)
 
       
 ## Part 4: Enable application insights
@@ -133,11 +133,11 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 
 *C. Video tutorial*:
 
-![Enable application insights - Part 1](https://youtu.be/0SflRVTtTyw)
+[Enable application insights - Part 1](https://youtu.be/0SflRVTtTyw)
 
-![Enable application insights - Part 2](https://youtu.be/69IZq83Pju0)
+[Enable application insights - Part 2](https://youtu.be/69IZq83Pju0)
 
-![Enable application insights - Part 3](https://youtu.be/6qiv6UYPdWc)
+[Enable application insights - Part 3](https://youtu.be/6qiv6UYPdWc)
 
 
 ## Part 5: Swagger documentation
@@ -173,11 +173,11 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 
 *C. Video tutorial*:
 
-![Swagger documentation - Part 1](https://youtu.be/yncXp4vOSrc)
+[Swagger documentation - Part 1](https://youtu.be/yncXp4vOSrc)
 
-![Swagger documentation - Part 2](https://youtu.be/WIUgUVIsVO0)
+[Swagger documentation - Part 2](https://youtu.be/WIUgUVIsVO0)
 
-![Swagger documentation - Part 3](https://youtu.be/imS2sHPqyM8)
+[Swagger documentation - Part 3](https://youtu.be/imS2sHPqyM8)
 
 
 ## Part 6: Consume model endpoints
@@ -210,7 +210,7 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 
 *C. Video tutorial*:
 
-![Consume model endpoints](https://youtu.be/bqObQt0onb4)
+[Consume model endpoints](https://youtu.be/bqObQt0onb4)
 
         
 # Project 2: Create, publish and consume a pipeline
