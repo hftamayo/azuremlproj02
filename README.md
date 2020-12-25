@@ -5,15 +5,15 @@
 
 ### Table of Content
 1. Project's overview
-2. architectural Diagram
+2. Architectural Diagram
 3. Screen Recording
 4. Project 01: Implement a cloud based Machine Learning Model
-    4.1 Authentication
-    4.2 Automation of the Machine Learning Experiment
-   4.3 Deploy the best model
-   4.4 Enable application insights
-   4.5 Swagger documentation
-   4.6 Consume model endpoints
+    1. Authentication
+    2. Automation of the Machine Learning Experiment
+    3. Deploy the best model
+    4. Enable application insights
+    5. Swagger documentation
+    6. Consume model endpoints
 5. Project 02: Create, publish and consume a pipeline
 6. Best practice: Cleaning the workspace
 7. How to Improve the project in the future?
