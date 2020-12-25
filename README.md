@@ -16,7 +16,7 @@
     6. Consume model endpoints
 5. Project 02: Create, publish and consume a pipeline
 6. Best practice: Cleaning the workspace
-7. How to Improve the project in the future?
+7. Future improvements
 
 ### 1. Project's overview
 The project has two components, the first one is the automation of a Machine Learning Model and its implementation on the cloud using Azure Containers, the model is available via API functions and it has a dashboard avaiable using Application Insights Options. The model was tested using Apache Benchmark.
@@ -220,6 +220,7 @@ To interact with the deployed model using a source code specifically designed fo
     2. Execute the endpoint.py file
     3. A file called data.json should be created as a result of the interaction
     4. To test the performance of the endpoint run benchmark.sh file, do not forget to update the values of scoring_uri and key as well.
+    5. Registered datasets during the execution of the experiment
 
 *B. Screenshots of the execution of some stages*:
 
@@ -237,6 +238,10 @@ To interact with the deployed model using a source code specifically designed fo
 
     5. Running benchmark.sh
 ![step06_ss05.png](./img/s06/step06_ss05.png?raw=true "Running benchmark.sh")    
+
+    6. Registered Datasets in the ML studio's workspace
+![step07_ss04.png](./img/s07/step07_ss04.png?raw=true "Registered Datasets in the ML studio's workspace")        
+
 
 
 *C. Video tutorial*:
@@ -281,16 +286,13 @@ To execute the different stages from a jupyter notebook file to implement a pipe
     5. Pipeline deployed
 ![step07_ss03.png](./img/s07/step07_ss03.png?raw=true "Endpoint deployed")        
     
-    6. Dataset avaiables in the ML studio's workspace
-![step07_ss04.png](./img/s07/step07_ss04.png?raw=true "Dataset avaiables in the ML studio's workspace")        
-
-    7. Training process completed
+    6. Training process completed
 ![step07_ss05.png](./img/s07/step07_ss05.png?raw=true "Training process completed")
 
-    8. Automl model completed
+    7. Automl model completed
 ![step07_ss06.png](./img/s07/step07_ss06.png?raw=true "Automl model completed")
     
-    9. Automl model completed (view from the jupyter notebook)
+    8. Automl model completed (view from the jupyter notebook)
 ![step07_ss07.png](./img/s07/step07_ss07.png?raw=true "Automl model completed_view from the jupyter notebook")
 
 *C. Video tutorial*:
