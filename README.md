@@ -8,8 +8,8 @@
 2. architectural Diagram
 3. Screen Recording
 4. Project 01: Implement a cloud based Machine Learning Model
-   4.1 Authentication
-   4.2 Automation of the Machine Learning Experiment
+    4.1 Authentication
+    4.2 Automation of the Machine Learning Experiment
    4.3 Deploy the best model
    4.4 Enable application insights
    4.5 Swagger documentation
