@@ -2,7 +2,24 @@
 ### Machine Learning Engineer with Microsoft Azure Program
 ###### Scholarship recipient: Herbert Fernández Tamayo
 
-### 1. Overview of the project
+
+### Table of Content
+1. Project's overview
+2. architectural Diagram
+3. Screen Recording
+4.Project 01: Implkement a cloud based Machine Learning Model
+    4.1 Authentication
+    4.2 Automation of the Machine Learning Experiment
+    4.3 Deploy the best model
+    4.4 Enable application insights
+    4.5 Swagger documentation
+    4.6 Consume model endpoints
+5. Project 02: Create, publish and consume a pipeline
+    5.1 Project's main goal:
+6. Best practice: Cleaning the workspace
+7. How to Improve the project in the future?
+
+### 1. Project's overview
 The project has two components, the first one is the automation of a Machine Learning Model and its implementation on the cloud using Azure Containers, the model is available via API functions and it has a dashboard avaiable using Application Insights Options. The model was tested using Apache Benchmark.
 
 The second component is the implementation of a pipeline, the source code is available using a jupyter notebook file, it includes the provision of an Infrastructure as a service, configure an AutoML workspace, a model training stage and access to the expected results.
@@ -25,15 +42,21 @@ In the next video the user may have access to the project's summary and the expe
 
 To implement an automated ML model in production which is accesible via HTTP and its capable of establish interaction using API methods
 
-## Part 1: Authentication
-*Main goal*: Enable authentication in Azure ML workspace in order to execute a group of special operations. 
+### 4.1 Authentication
+*Main goal*: 
 
-*Disclaimer*: you will need to install the Azure Machine Learning Extension which allows you to interact with Azure Machine Learning Studio, part of the az command. After having the Azure machine Learning Extension, you will create a Service Principal account and associate it with your specific workspace. 
+Enable authentication in Azure ML workspace in order to execute a group of special operations. 
+
+*Disclaimer*: 
+
+You will need to install the Azure Machine Learning Extension which allows you to interact with Azure Machine Learning Studio, part of the az command. After having the Azure machine Learning Extension, you will create a Service Principal account and associate it with your specific workspace. 
 
 Whether you are using an Azure ML studio account with no rights of deploy a Service Principal you may skip this step.
 
-## Part 2: Automation of the Machine Learning Experiment
-*Main goal*: to implement a model that will be cloud based deploy and consume as an endpoint. 
+### 4.2 Automation of the Machine Learning Experiment
+*Main goal*: 
+
+To implement a model that will be cloud based deploy and consume as an endpoint. 
 
 *A. Checkpoints to be considered*: 
 
@@ -67,8 +90,10 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 [Automation of the Machine Learning Experiment Part 2](https://youtu.be/HP1focRImfY)
 
 
-## Part 3: Deploy the best model
-*Main goal*: to publish via HTTP the best model identified and chose after the AutoML experiment is completed. 
+### 4.3 Deploy the best model
+*Main goal*: 
+
+To publish via HTTP the best model identified and chose after the AutoML experiment is completed. 
 
 *A. Checkpoints to be considered*: 
 
@@ -102,8 +127,10 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 [Deploy the best model](https://youtu.be/veDdDgKgFf4)
 
       
-## Part 4: Enable application insights
-*Main goal*: Enable application insights and logging via source code (Although this process may be accomplished using the GUI).
+### 4.4 Enable application insights
+*Main goal*: 
+
+Enable application insights and logging via source code (Although this process may be accomplished using the GUI).
 
 *A. Checkpoints to be considered*: 
 
@@ -141,8 +168,10 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 [Enable application insights - Part 3](https://youtu.be/6qiv6UYPdWc)
 
 
-## Part 5: Swagger documentation
-*Main goal*: To test the recently deployed model using Swagger.
+### 4.5 Swagger documentation
+*Main goal*: 
+
+To test the recently deployed model using Swagger.
 
 *A. Checkpoints to be considered*: 
 
@@ -181,8 +210,10 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 [Swagger documentation - Part 3](https://youtu.be/imS2sHPqyM8)
 
 
-## Part 6: Consume model endpoints
-*Main goal*: To interact with the deployed model using a source code specifically designed for the purpose.
+### 4.6 Consume model endpoints
+*Main goal*: 
+
+To interact with the deployed model using a source code specifically designed for the purpose.
 
 *A. Checkpoints to be considered*: 
 
@@ -214,9 +245,10 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 [Consume model endpoints](https://youtu.be/bqObQt0onb4)
 
         
-# Project 02: Create, publish and consume a pipeline
+### 5. Project 02: Create, publish and consume a pipeline
 
-## Project's main goal:
+### 5.1 Project's main goal:
+
 To execute the different stages from a jupyter notebook file to implement a pipeline.
 
 *A. Checkpoints to be considered*: 
@@ -232,9 +264,6 @@ To execute the different stages from a jupyter notebook file to implement a pipe
     6. Verify the pipeline has been created
     7. Verify the pipeline is running
 
-## Standout Suggestions
-1. Implement the automation model using Kubernetes.
-2. Develop different source code examples to interact in detail with the model using an Frontend framework such as React.js 
 
 *B. Screenshots of the execution of some stages*:
 
@@ -271,10 +300,16 @@ To execute the different stages from a jupyter notebook file to implement a pipe
 
 [Create, publish and consume a pipeline Part 2](https://youtu.be/IdzSo1Qx_Uk)
 
-# Cleaning the workspace
+### 6. Best practice: Cleaning the workspace
 
     1. Deleting Computer Clusters instances
 ![cleaning01.png](./img/cleaning01.png?raw=true "Deleting computer clusters")        
 
-    1. Deleting Computer instances
+    2. Deleting Computer instances
 ![cleaning02.png](./img/cleaning02.png?raw=true "Deleting computer instances")        
+
+### 7. How to Improve the project in the future?
+1. Deploy the best model calculated from the AutoML Experiment using Kubernetes instead ACI.
+2. Update the notebook's sourcecode to be compatible with SDK 1.19.0.
+3. Ppackage the registered Azure Machine Learning model with Docker
+4. Add diferent datasets in endpoint.py to have more interaction with the deployed model .
