@@ -9,19 +9,19 @@ The second component is the implementation of a pipeline, the source code is ava
 
 Both components use the same dataset.
 
-### 1. Architectural Diagram
+### 2. Architectural Diagram
  The below diagram has been created using draw.io:
 ![project02_diagram.png](./project02_diagram.png?raw=true "Project diagram")
 
-### 1. Screen Recording
+### 3. Screen Recording
 In the next video the user may have access to the project's summary and the expected results. In the next sections, there are specific videos to help the user to understand specific tasks :
 
 [Project's Summary](https://youtu.be/e9Z9gdNLemc)
 
 
-### 1. Project 1: Implement a cloud based Machine Learning Model
+### 4. Project 01: Implement a cloud based Machine Learning Model
 
-## Project's main goal:
+_ * 4.1 Project's main goal*_:
 To implement an automated ML model in production which is accesible via HTTP and its capable of establish interaction using API methods
 
 ## Part 1: Authentication
@@ -213,7 +213,7 @@ Whether you are using an Azure ML studio account with no rights of deploy a Serv
 [Consume model endpoints](https://youtu.be/bqObQt0onb4)
 
         
-# Project 2: Create, publish and consume a pipeline
+# Project 02: Create, publish and consume a pipeline
 
 ## Project's main goal:
 To execute the different stages from a jupyter notebook file to implement a pipeline.
