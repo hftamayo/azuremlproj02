@@ -1,25 +1,25 @@
 # Configuring and implementing a cloud based Machine Learning Production Model
-## Machine Learning Engineer with Microsoft Azure Program
-### Scholarship recipient: Herbert Fernández Tamayo
+### Machine Learning Engineer with Microsoft Azure Program
+###### Scholarship recipient: Herbert Fernández Tamayo
 
-## Overview of the project
+### 1. Overview of the project
 The project has two components, the first one is the automation of a Machine Learning Model and its implementation on the cloud using Azure Containers, the model is available via API functions and it has a dashboard avaiable using Application Insights Options. The model was tested using Apache Benchmark.
 
 The second component is the implementation of a pipeline, the source code is available using a jupyter notebook file, it includes the provision of an Infrastructure as a service, configure an AutoML workspace, a model training stage and access to the expected results.
 
 Both components use the same dataset.
 
-## Architectural Diagram
+### 1. Architectural Diagram
  The below diagram has been created using draw.io:
 ![project02_diagram.png](./project02_diagram.png?raw=true "Project diagram")
 
-## Screen Recording
+### 1. Screen Recording
 In the next video the user may have access to the project's summary and the expected results. In the next sections, there are specific videos to help the user to understand specific tasks :
 
 [Project's Summary](https://youtu.be/e9Z9gdNLemc)
 
 
-# Project 1: Implement a cloud based Machine Learning Model
+### 1. Project 1: Implement a cloud based Machine Learning Model
 
 ## Project's main goal:
 To implement an automated ML model in production which is accesible via HTTP and its capable of establish interaction using API methods
