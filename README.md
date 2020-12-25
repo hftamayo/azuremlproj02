@@ -309,8 +309,8 @@ To execute the different stages from a jupyter notebook file to implement a pipe
     2. Deleting Computer instances
 ![cleaning02.png](./img/cleaning02.png?raw=true "Deleting computer instances")        
 
-### 7. How to Improve the project in the future?
+### 7. Project's future improvements
 1. Deploy the best model calculated from the AutoML Experiment using Kubernetes instead ACI.
 2. Update the notebook's sourcecode to be compatible with SDK 1.19.0.
-3. Ppackage the registered Azure Machine Learning model with Docker
+3. Package the registered Azure Machine Learning model with Docker
 4. Add diferent datasets in endpoint.py to have more interaction with the deployed model .
