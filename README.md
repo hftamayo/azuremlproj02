@@ -21,7 +21,7 @@ In the next video the user may have access to the project's summary and the expe
 
 ### 4. Project 01: Implement a cloud based Machine Learning Model
 
-_ * 4.1 Project's main goal*_:
+* 4.1 Project's main goal*:
 To implement an automated ML model in production which is accesible via HTTP and its capable of establish interaction using API methods
 
 ## Part 1: Authentication
