@@ -32,7 +32,7 @@ Both components use the same dataset.
 ### 3. Screen Recording
 In the next video the user may have access to the project's summary and the expected results. In the next sections, there are specific videos to help the user to understand specific tasks :
 
-[Project's Summary](https://youtu.be/e9Z9gdNLemc)
+[Project's Summary](https://youtu.be/DFAr6zs6nro)
 
 
 ### 4. Project 01: Implement a cloud based Machine Learning Model
